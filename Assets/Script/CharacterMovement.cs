@@ -77,7 +77,7 @@ public class CharacterMovement : MonoBehaviour
         playerVelocity = gravity * Time.deltaTime + movement;
         controller.Move(playerVelocity);
     }
-     /*
+    
     void ProcessMovement()
     { 
         // Moving the character foward according to the speed
@@ -108,7 +108,7 @@ public class CharacterMovement : MonoBehaviour
         playerVelocity = gravity * Time.deltaTime + movement * Time.deltaTime * speed;
         controller.Move(playerVelocity);
     }
-     */
+    
     float GetMovementSpeed()
     {
         if (Input.GetButton("Fire3"))// Left shift
